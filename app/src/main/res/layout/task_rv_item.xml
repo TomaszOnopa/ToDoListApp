@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/taskItemHeight"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/margin"
+    android:background="@android:color/transparent"
+    android:paddingHorizontal="@dimen/padding"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange2">
+
+
+        <TextView
+            android:id="@+id/categoryTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/orange1"
+            android:paddingHorizontal="@dimen/padding"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smallTextSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/attachmentIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/categoryTV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/attachment" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/taskRVItemGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.20" />
+
+        <TextView
+            android:id="@+id/dateTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/textSize"
+            app:layout_constraintEnd_toStartOf="@+id/taskRVItemGuideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categoryTV" />
+
+        <CheckBox
+            android:id="@+id/statusCB"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/taskRVItemGuideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateTV" />
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/bigTextSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/taskRVItemGuideline"
+            app:layout_constraintTop_toBottomOf="@+id/categoryTV" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

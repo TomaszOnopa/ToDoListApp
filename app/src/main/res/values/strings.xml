@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ToDo List App</string>
+
+<!--Main activity-->
+    <string name="searchTaskHint">Search task</string>
+
+<!--Settings-->
+    <string name="Settings">Settings</string>
+    <string name="hideTasks">Hide completed tasks</string>
+    <string name="newCategoryHint">New category name</string>
+    <string name="notificationTV">Notification:</string>
+    <string name="rb1">5 minutes</string>
+    <string name="rb2">15 minutes</string>
+    <string name="rb3">30 minutes</string>
+
+<!--Task details-->
+    <string name="categoryTV">Category:</string>
+    <string name="cDateTV">Creation date:</string>
+    <string name="eDateTV">Execution date:</string>
+    <string name="eTimeTV">Execution time:</string>
+    <string name="dateHint">yyyy-mm-dd</string>
+    <string name="timeHint">hh:mm</string>
+    <string name="descTV">Description:</string>
+
+    <string name="notification">Notification</string>
+    <string name="addBtn">Add image</string>
+    <string name="addBtn2">Change image</string>
+    <string name="editBtn">Edit</string>
+    <string name="saveBtn">Save</string>
+
+<!--New task-->
+    <string name="newTaskTitleHint">Title</string>
+    <string name="newTaskCategoryHint">Category</string>
+    <string name="newTaskDescHint">Description</string>
+    <string name="newTaskEDateHint">Execution date</string>
+    <string name="newTaskETimeHint">Execution time</string>
+    <string name="newTaskAddBtn">Add</string>
+
+<!--Toasts-->
+    <string name="toastCategoryDelError">Couldn\'t remove category!</string>
+    <string name="toastDataSaved">Data changed!</string>
+    <string name="toastValueError">Please fill all the gaps!</string>
+
+<!--Permissions-->
+    <string name="pGranted">Permission granted!</string>
+    <string name="pNotGranted">Permission not granted!</string>
+</resources>

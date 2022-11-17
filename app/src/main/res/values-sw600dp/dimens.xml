@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnSize">100dp</dimen>
+    <dimen name="smallBtnSize">90dp</dimen>
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="bigMargin">20dp</dimen>
+    <dimen name="fabMargin">16dp</dimen>
+
+    <dimen name="padding">10dp</dimen>
+    <dimen name="bigPadding">20dp</dimen>
+
+    <dimen name="smallTextSize">24sp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="bigTextSize">40sp</dimen>
+    <dimen name="veryBigTextSize">60sp</dimen>
+
+    <dimen name="taskItemHeight">160dp</dimen>
+</resources>
